@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD611A82286CE6E9007F60B8 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD611A81286CE6E9007F60B8 /* FredokaOne-Regular.ttf */; };
+		BD818B4A286CE270001898A2 /* cat_apult.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BDC368B6286B541D00526914 /* cat_apult.xcdatamodeld */; };
+		BD9C9CD6286CAB9D000DBE76 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C9CD5286CAB9D000DBE76 /* MapViewController.swift */; };
+		BD9C9CD8286CCD96000DBE76 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C9CD7286CCD95000DBE76 /* CategoriesViewController.swift */; };
+		BD9C9CDD286CD4D4000DBE76 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C9CDC286CD4D4000DBE76 /* InfoViewController.swift */; };
 		BDC368AE286B541D00526914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC368AD286B541D00526914 /* AppDelegate.swift */; };
 		BDC368B0286B541D00526914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC368AF286B541D00526914 /* SceneDelegate.swift */; };
 		BDC368B2286B541D00526914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC368B1286B541D00526914 /* ViewController.swift */; };
 		BDC368B5286B541D00526914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC368B3286B541D00526914 /* Main.storyboard */; };
-		BDC368B8286B541D00526914 /* cat_apult.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDC368B6286B541D00526914 /* cat_apult.xcdatamodeld */; };
 		BDC368BA286B541F00526914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC368B9286B541F00526914 /* Assets.xcassets */; };
 		BDC368BD286B541F00526914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC368BB286B541F00526914 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD611A81286CE6E9007F60B8 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		BD9C9CD5286CAB9D000DBE76 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BD9C9CD7286CCD95000DBE76 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		BD9C9CDC286CD4D4000DBE76 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BD9C9CE1286CDDFD000DBE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDC368AA286B541D00526914 /* cat-apult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cat-apult.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC368AD286B541D00526914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC368AF286B541D00526914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +34,6 @@
 		BDC368B7286B541D00526914 /* cat_apult.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cat_apult.xcdatamodel; sourceTree = "<group>"; };
 		BDC368B9286B541F00526914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC368BC286B541F00526914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BDC368BE286B541F00526914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,17 @@
 		BDC368AC286B541D00526914 /* cat-apult */ = {
 			isa = PBXGroup;
 			children = (
+				BD611A81286CE6E9007F60B8 /* FredokaOne-Regular.ttf */,
 				BDC368AD286B541D00526914 /* AppDelegate.swift */,
 				BDC368AF286B541D00526914 /* SceneDelegate.swift */,
 				BDC368B1286B541D00526914 /* ViewController.swift */,
 				BDC368B3286B541D00526914 /* Main.storyboard */,
+				BD9C9CD7286CCD95000DBE76 /* CategoriesViewController.swift */,
+				BD9C9CDC286CD4D4000DBE76 /* InfoViewController.swift */,
+				BD9C9CD5286CAB9D000DBE76 /* MapViewController.swift */,
 				BDC368B9286B541F00526914 /* Assets.xcassets */,
 				BDC368BB286B541F00526914 /* LaunchScreen.storyboard */,
-				BDC368BE286B541F00526914 /* Info.plist */,
+				BD9C9CE1286CDDFD000DBE76 /* Info.plist */,
 				BDC368B6286B541D00526914 /* cat_apult.xcdatamodeld */,
 			);
 			path = "cat-apult";
@@ -128,9 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD818B4A286CE270001898A2 /* cat_apult.xcdatamodeld in Resources */,
 				BDC368BD286B541F00526914 /* LaunchScreen.storyboard in Resources */,
 				BDC368BA286B541F00526914 /* Assets.xcassets in Resources */,
 				BDC368B5286B541D00526914 /* Main.storyboard in Resources */,
+				BD611A82286CE6E9007F60B8 /* FredokaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +157,10 @@
 			files = (
 				BDC368B2286B541D00526914 /* ViewController.swift in Sources */,
 				BDC368AE286B541D00526914 /* AppDelegate.swift in Sources */,
+				BD9C9CD8286CCD96000DBE76 /* CategoriesViewController.swift in Sources */,
+				BD9C9CDD286CD4D4000DBE76 /* InfoViewController.swift in Sources */,
 				BDC368B0286B541D00526914 /* SceneDelegate.swift in Sources */,
-				BDC368B8286B541D00526914 /* cat_apult.xcdatamodeld in Sources */,
+				BD9C9CD6286CAB9D000DBE76 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99N5B8U35T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cat-apult/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99N5B8U35T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cat-apult/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
