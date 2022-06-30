@@ -60,7 +60,16 @@ class MapViewController: UIViewController {
         ]
     ]
     
-
+    /*@IBOutlet weak var horizontallyScrollableStackView: UIStackView!
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        for _ in 0...10 {
+            if let worldMap = Bundle.main.loadNibNamed(worldMap, owner: nil, options: nil)!.first as? worldMap {
+                horizontallyScrollableStackView.addArrangedSubview(worldMap)
+            }
+        }
+    }*/
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
