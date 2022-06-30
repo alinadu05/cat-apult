@@ -10,13 +10,13 @@ import UIKit
 class InfoViewController: UIViewController {
     
     var info = ""
-    var category = ""
+    var category2 = ""
 
     @IBOutlet weak var titleText: UILabel!
     @IBOutlet weak var infoText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleText.text = category
+        titleText.text = category2
         infoText.text = info
         // Do any additional setup after loading the view.
     }

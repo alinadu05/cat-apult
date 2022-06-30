@@ -89,6 +89,10 @@
                                     <action selector="nextText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zz5-mb-hyu"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS-1" translatesAutoresizingMaskIntoConstraints="NO" id="FXw-cy-8ng">
+                                <rect key="frame" x="-180" y="428" width="803" height="389"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.91764706370000004" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -97,6 +101,7 @@
                         <outlet property="catText" destination="DmP-4n-qQd" id="a8T-6y-JMd"/>
                         <outlet property="insertName" destination="sMd-I9-m1X" id="ebs-ji-QwV"/>
                         <outlet property="map" destination="nZz-HK-qNy" id="yAp-Zg-E62"/>
+                        <outlet property="nextButton" destination="vgt-SX-wd7" id="Q22-0s-W0v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -354,6 +359,7 @@
         <segue reference="6zi-WY-eR6"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Image from iOS-1" width="2732" height="2048"/>
         <image name="forward.fill" catalog="system" width="128" height="79"/>
         <image name="globe background" width="264" height="564"/>
         <image name="globe icon" width="92" height="82"/>
