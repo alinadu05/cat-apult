@@ -14,15 +14,26 @@ class CategoriesViewController: UIViewController {
     var category = ""
     var name = ""
 
+    @IBOutlet weak var countryNameLabel: UILabel!
+    
+    @IBOutlet weak var countryImageView: UIImageView!
+    
+    @IBOutlet weak var countryCatImageView: UIImageView!
+    
+    @IBOutlet weak var countryIntro: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        countryNameLabel.text = countryDictionary["name"]
+        countryImageView.image = UIImage(named:countryDictionary["image"]!)
+        countryCatImageView.image = UIImage(named:countryDictionary["catImage"]!)
+        countryIntro.text = countryDictionary["intro"]
         // Do any additional setup after loading the view.
     }
     
     @IBAction func categoryPressed(_ sender: UIButton) {
         category = sender.titleLabel!.text ?? ""
-        performSegue(withIdentifier: "toInfo", sender: self)
         if category == "Customs"{
             name = "customs"
         }
@@ -32,6 +43,12 @@ class CategoriesViewController: UIViewController {
         else if category == "Eco-Friendly Options"{
             name = "eco"
         }
+        let destination2VC = InfoViewController()
+        let segue = UIStoryboardSegue(identifier: "toInfo", source: self, destination: destination2VC)
+        print("preforming segue")
+        prepare(for: segue, sender: self)
+        performSegue(withIdentifier: "toInfo", sender: self)
+
     }
     
     
@@ -40,11 +57,13 @@ class CategoriesViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("prepare function")
         if segue.identifier == "toInfo"{
             let destinationVC = segue.destination as? InfoViewController
             destinationVC?.info = countryDictionary[name] ?? "didn't work"
             destinationVC?.category2 = category
         }
+
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
